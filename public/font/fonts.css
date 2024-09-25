@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'SCDREAM3';
+    src: url('/font/SCDREAM3.OTF') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SCDREAM4';
+    src: url('/font/SCDREAM4.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SCDREAM5';
+    src: url('/font/SCDREAM5.OTF') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PRETENDARD01';
+    src: url('/font/PRETENDARD-EXTRALIGHT.OTF') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PRETENDARD02';
+    src: url('/font/PRETENDARD-REGULAR.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PRETENDARD03';
+    src: url('/font/PRETENDARD-SEMIBOLD.OTF') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
