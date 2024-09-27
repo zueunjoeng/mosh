@@ -3,20 +3,111 @@ body{
   bottom: 0;
   background-color: #FCF7EF;
 }
-ul, li{
+ul, li, p{
     text-decoration: none;
+    color:white;
+  }
+  ul,li{
+    margin: 0;
+    padding:0;
   }
 
-  a{
+a{
     text-decoration: none !important;
-    color:white
+    color:white !important;
 }
 
 .fs22{
   font-size: 1.3rem;
   font-family: 'PRETENDARD02';
-  font-weight: 400;
 }
+@media (max-width: 1200px) {
+  .fs22 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .fs22 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .fs22 {
+    font-size: 0.9rem;
+  }
+}
+
+.fs23{
+  font-size: 1.8rem;
+  font-family: 'PRETENDARD02';
+}
+@media (max-width: 1200px) {
+  .fs23 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .fs23 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .fs23 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .fs23 {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 320px) {
+  .fs23 {
+    font-size: 1.3rem;
+  }
+}
+
+.fs10{
+  font-size: 1rem;
+  font-family: 'SCDREAM3';
+  font-weight: 300;
+}
+@media (max-width: 576px) {
+  .fs10{
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 320px) {
+  .fs10{
+    font-size: 0.8rem;
+  }
+}
+
+.fs13{
+  font-size: 0.9rem;
+  font-family: 'PRETENDARD01';
+  font-weight: 200;
+}
+@media (max-width: 576px) {
+  .fs13{
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .fs13{
+    font-size: 0.7rem;
+  }
+}
+
 .point {
   font-family: 'Poetsen One', sans-serif;
+}
+
+.sectiontop{
+  margin-top: 160px;
 }

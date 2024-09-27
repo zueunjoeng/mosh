@@ -5,19 +5,21 @@
         color:white
     }
    
-    .logocls{
-        width: 178px;
-        height: 45px;
+    .logocls {
+        width: clamp(7rem, 10vw, 11.5rem);
+        height: clamp(1.8rem, 2.5vw, 2.8rem);
     }
     nav{
         .gnbwapper{
             border-top:0.8px solid white;
             gap: 3rem;
+            // padding: 0 78px;
         }
        
         
         .gnb{
-            gap: 6rem;
+            // gap: 6rem;
+            padding: 0 96px;
         }
     }
     .side-menu {
@@ -55,15 +57,16 @@
                 font-family: "SCDREAM3";
                 font-size: 10px;
                 line-height: 13px;
+                width: 100%;
             }
       }
-      .naviul:before{
+    .naviul:before{
       content: "";
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
-        height: 0px;
+        height: 0;
         overflow: hidden;
         transition: .5s;
         border-top: 1px solid rgba(0, 0, 0, 0);
@@ -76,10 +79,34 @@
             top: 100%;
             left: 0;
             right: 0;
-            height: 205px;
+            height: 163px;
     }   
+    .navili{
+        overflow: hidden;
+        height: 0;
+        position: absolute;
+        font-size: 15px;
+        font-family: 'PRETENDARD01';
+        font-weight: 200;
+        text-align: center;
+        top:100%;
 
-   }
+        li{
+           padding: 0.5rem 0; 
+        }
+    }
+    .naviul:hover .navili{
+        height: 163px;
+    }
+    .radius {
+        border-radius: 10px; /* 30px 둥글게 */
+      }
+      .listcls{
+        border: none;
+        background-color: transparent;
+        color:black;
+      }
+}
 @media (max-width:768px) {
     #hd{
         .logocls{
