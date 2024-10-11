@@ -26,7 +26,7 @@ const Hd = () => {
           <div className='d-flex flex-md-column justify-content-md-center px-4 justify-content-between align-items-center'>
             <h1>
               <a href='/'>
-                <img className='logocls' src='./img/logo.png' alt='모슈 로고'/>
+                <img className='logocls' src='/img/logo.png' alt='모슈 로고'/>
                 </a>
             </h1>
             <div className='d-md-none d-flex'>
@@ -44,7 +44,7 @@ const Hd = () => {
                   <img src={closebtn} className='ms-2 close-btn' alt="toggle icon" onClick={toggleMenu}/>
                   <div className='d-flex flex-column justify-content-center align-items-center pb-2 menucls'>
                     <a href='/' className='my-2 mb-2'>
-                      <img className='logocls' src='./img/logo.png' alt='모슈 로고'/>
+                      <img className='logocls' src='/img/logo.png' alt='모슈 로고'/>
                     </a>
                     <div className='d-flex fs10'>
                       <Link to="/signup" className='border-end px-4'>회원가입</Link>
@@ -129,9 +129,6 @@ const Hd = () => {
                       </div>
                        
                       </div> 
-                     
-                      
-
                 </div>
               </div>
           </div>
@@ -139,10 +136,10 @@ const Hd = () => {
             <nav className='d-none d-md-flex justify-content-center naviul'>
               <div className='gnbwapper justify-content-center d-flex align-items-center'>
                 <ul className='m-0 p-0 ms-5 d-flex gnb align-items-center'>
-                  <li className='fs22 ms-5 px-lg-4 px-md-4'>
+                  <li className='fs22 ms-5 px-lg-4 px-md-3'>
                     <Link to="/about">About</Link>
                   </li>
-                  <li className='fs22 px-lg-5 px-md-4 position-relative d-flex flex-wrap justify-content-center'>
+                  <li className='fs22 px-lg-4 px-md-3 position-relative d-flex flex-wrap justify-content-center'>
                     <Link to="/Product">Product</Link>
                       {/* product소메뉴 */}
                       <ul className='p-0 navili'>
@@ -152,7 +149,7 @@ const Hd = () => {
                         <li><Link to="/Product/option4">mosh! ETC SERISE</Link></li>
                       </ul> 
                   </li>
-                  <li className='fs22 px-lg-5 px-md-4 position-relative'>
+                  <li className='fs22 px-lg-4 px-md-3 position-relative d-flex flex-wrap justify-content-center'>
                     <Link to="/mosh!Book"><span className='point'>mosh!</span>Book</Link>
                       {/* mosh!book소메뉴 */}
                       <ul className='p-0 navili'>
@@ -160,10 +157,10 @@ const Hd = () => {
                       <li><Link to="/mosh!Book/option2">RECIPE</Link></li>
                     </ul>  
                   </li>
-                  <li className='fs22 px-lg-5 px-md-4'>
+                  <li className='fs22 px-lg-4 px-md-3'>
                     <Link to="/Promotion">Promotion</Link>
                   </li>
-                  <li className='fs22 px-lg-5 px-md-4 position-relative'>
+                  <li className='fs22 px-lg-4 px-md-3 position-relative d-flex flex-wrap justify-content-center'>
                     <Link to="/Community">Community</Link>
                     {/* community소메뉴 */}
                     <ul className='p-0 navili'>

@@ -30,6 +30,7 @@
         height: 100%;
         background-color: #94867B;
         transition: right 0.5s ease;
+        z-index: 100000;
         
         &.show {
             right: 0;
@@ -68,7 +69,7 @@
         right: 0;
         height: 0;
         overflow: hidden;
-        transition: .5s;
+        transition: .3s;
         border-top: 1px solid rgba(0, 0, 0, 0);
     }
     .naviul:hover:before{
@@ -79,7 +80,8 @@
             top: 100%;
             left: 0;
             right: 0;
-            height: 163px;
+            height: 170px;
+            z-index: 100;
     }   
     .navili{
         overflow: hidden;
@@ -90,9 +92,13 @@
         font-weight: 200;
         text-align: center;
         top:100%;
-
+        z-index: 101;
+       
         li{
-           padding: 0.5rem 0; 
+           padding: 0.3rem 0;  
+           &:hover{
+            text-decoration: underline;
+        } 
         }
     }
     .naviul:hover .navili{

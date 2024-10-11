@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../scss/ft.scss'
 import {Link} from 'react-router-dom'
 
@@ -9,7 +9,7 @@ const Footer= () => {
         <div className='d-md-flex px-3 justify-content-between align-items-center'>
             <h2 className='text-center text-md-start'>
                 <a href='/'>
-                        <img className='logocls' src='./img/logo.png' alt='모슈 로고'/>
+                        <img className='logocls' src='/img/logo.png' alt='모슈 로고'/>
                 </a>
             </h2>
             <ul className='d-flex m-0 p-0 justify-content-center justify-content-md-end'>
