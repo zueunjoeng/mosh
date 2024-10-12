@@ -4,6 +4,9 @@ import Footer from './component/Footer';
 import { Routes, Route  } from 'react-router-dom';
 import Mainbanner from './component/Mainbanner';
 import Product from './component/Product';
+import Minibanner from './component/Minibanner';
+import Strength from './component/Strength';
+import Moshbook from './component/Moshbook';
 
 import './scss/common.scss';
 
@@ -17,9 +20,12 @@ function App() {
      </Routes> */}
     <Mainbanner />
     <Product />
+    <Minibanner />
+    <Strength />
+    <Moshbook />
      <Footer/>
      </>
-     
+
   );
 }
 

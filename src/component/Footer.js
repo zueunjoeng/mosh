@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Footer= () => {
 
   return (
-    <footer id="ft" className='sectiontop'>
+    <footer id="ft">
         <div className='d-md-flex px-3 justify-content-between align-items-center'>
             <h2 className='text-center text-md-start'>
                 <a href='/'>

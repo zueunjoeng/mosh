@@ -4,9 +4,12 @@
     }
     .shopcls{
         max-width: 1630px;
+        p, i{
+            color:#666;
+        }
     }
     .productSwiper{
-        max-width: 1400px;
+        // max-width: 1400px;
         height: 100%;
           .swiper-pagination-bullet, .swiper-pagination-bullet-active{
             background-color:gray !important;
@@ -25,16 +28,16 @@
         background-color:gray !important;
     }
     .swiper-pagination {
-        position: relative; /* 상대 위치 */
-        text-align: center; /* 중앙 정렬 */
-        margin-top: 10px; /* 상단 여백 */
+        position: relative; 
+        text-align: center; 
+        margin-top: 10px; 
     }
     .swiper-pagination-bullet {
-        background: #000; /* 페이지네이션 불렛 색상 */
-        opacity: 0.7; /* 불렛 투명도 */
+        background: #000; 
+        opacity: 0.7;
     }
     .swiper-pagination-bullet-active {
-        background: #007bff; /* 활성화된 불렛 색상 */
+        background: #007bff; 
     }
 }
 

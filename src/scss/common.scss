@@ -1,7 +1,7 @@
 body{
   margin: 0;
   bottom: 0;
-  background-color: #FCF7EF;
+  background-color: #FCF7EF !important;
 }
 ul, li, p{
     text-decoration: none;
@@ -114,4 +114,38 @@ a{
 
 .sectiontop{
   margin-top: 160px;
+}
+
+.fs_pre03{
+  font-size: 3rem;
+  font-family: 'PRETENDARD03';
+  font-weight: 600;
+}
+@media (max-width: 320px) {
+  .fs_pre03{
+    font-size: 1.2rem;
+  }
+}
+
+.fs_pre01{
+  font-size:0.8rem;
+  font-family: 'PRETENDARD01';
+  font-weight: 200;
+}
+@media (max-width: 320px) {
+  .fs_pre01{
+    font-size: 0.5rem;
+  }
+}
+
+.fs30{
+  font-size: 1.2rem;
+  font-family: 'SCDREAM3';
+  font-weight: 300;
+}
+
+.fs45{
+  font-size: 1.5rem;
+  font-family: 'PRETENDARD03';
+  font-weight: 600;
 }

@@ -19,10 +19,7 @@ function Product() {
         // 초기 화면 크기 체크
         handleResize();
 
-        // 윈도우 크기 변경 시 이벤트 리스너 추가
         window.addEventListener('resize', handleResize);
-
-        // 이벤트 리스너 해제
         return () => {
             window.removeEventListener('resize', handleResize);
         };
@@ -30,10 +27,10 @@ function Product() {
 
     return (
         <section id='product' className='sectionmargin'>
-            <h1 className='d-flex justify-content-md-center'>Product</h1>
-            <Link to="/shop" className='shopcls d-flex justify-content-end'>
-                <p>전체 상품 보러가기</p>
-                <i class="bi bi-arrow-right"></i>
+            <h1 className='fs_pre03 d-flex justify-content-md-center'>Product</h1>
+            <Link to="/shop" className='mb-1 fs_pre01 shopcls d-flex justify-content-end'>
+                <p className='m-0'>전체 상품 보러가기</p>
+                <i className="bi bi-arrow-right"></i>
                 <span className="visually-hidden">화살표</span> 
             </Link>
             {isMobile ? (
